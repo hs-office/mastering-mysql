@@ -1,1 +1,2 @@
-create database my_db
+create database bookstore_db;
+use bookstore_db;
