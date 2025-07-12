@@ -24,3 +24,10 @@ values
   ('henry walker', 'henry@gmail.com'),
   ('nora young', 'nora@gmail.com'),
   ('david king', 'david@gmail.com');
+
+
+-- this is to add duplicate data
+insert into customers (name, email)
+values ('emma watson', 'emma1@gmail.com');
+insert into customers (name, email)
+values ('emma watson', 'emma2@gmail.com');
