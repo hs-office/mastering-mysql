@@ -12,3 +12,5 @@ order by loan_date desc;
 select * from members
 order by membership_date desc;
 
+select * from members
+order by membership_date asc;
